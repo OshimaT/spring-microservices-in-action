@@ -1,0 +1,11 @@
+server:
+  port: 8180
+spring:
+  application:
+    name: organizationservice
+  profile:
+    active: default
+  cloud:
+    config:
+      enabled: true
+     # uri:  http://localhost:8888

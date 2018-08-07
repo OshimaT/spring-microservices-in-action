@@ -1,0 +1,10 @@
+server:
+  port: 8888
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+        searchLocations: file:////Users/f5238390/LeadArchitectureSpace/Personal-hacks/spring-microservices-hacks/configsvr/src/main/resources/config
